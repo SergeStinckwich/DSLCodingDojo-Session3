@@ -14,9 +14,26 @@ public class ComputerBuilder
     {
 	return disk(size(150));
     }
+
+    public static Disk scriptDiskFullDescription()
+    {
+	return disk(
+		    size(75),
+		    speed(7200),
+		    Disk.Interface.SATA
+		    );
+    }
     public static Disk disk(int size)
     {
 	return new Disk(size, 0, null);
+    }
+    public static Disk disk(int size, int speed, Disk.Interface iface)
+    {
+	return new Disk(size, speed, iface);
+    }
+    public static Disk scriptDiskSize250()
+    {
+	return disk(size(250));
     }
     public static void computer()
     {
