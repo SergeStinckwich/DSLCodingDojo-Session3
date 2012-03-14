@@ -19,4 +19,8 @@ public class ComputerBuilder
     {
 	return nbr;
     }
+    public static int speed(int nbr)
+    {
+	return nbr;
+    }
 }

@@ -33,4 +33,10 @@ public class NestedFunctionDSLTest {
 	Assert.assertEquals(ComputerBuilder.cores(2),2);
     
     }
+
+    @Test
+	public final void testSpeed() {
+	Assert.assertEquals(ComputerBuilder.speed(2),2);
+    
+    }
 }
