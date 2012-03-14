@@ -4,19 +4,19 @@ import org.junit.Test;
 public class NestedFunctionDSLTest {
     /* DSL final
        computer(
-       processor(
-       cores(2),
-       speed(2500),
-       i386
-       ),
-       disk(
-       size(150)
-       ),
-       disk(
-       size(75),
-       speed(7200),
-       SATA
-       )
+         processor(
+           cores(2),
+           speed(2500),
+           i386
+         ),
+         disk(
+           size(150)
+         ),
+         disk(
+           size(75),
+           speed(7200),
+           SATA
+         )
        );
     */
 
@@ -37,6 +37,11 @@ public class NestedFunctionDSLTest {
     @Test
 	public final void testSpeed() {
 	Assert.assertEquals(ComputerBuilder.speed(2),2);
+    
+    }
+    @Test
+	public final void testSize() {
+	Assert.assertEquals(ComputerBuilder.size(2),2);
     
     }
 }

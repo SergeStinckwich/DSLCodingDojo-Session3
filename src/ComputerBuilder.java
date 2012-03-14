@@ -23,4 +23,9 @@ public class ComputerBuilder
     {
 	return nbr;
     }
+    public static int size(int nbr)
+    {
+	return nbr;
+    }
+
 }
