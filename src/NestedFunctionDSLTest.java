@@ -42,6 +42,10 @@ public class NestedFunctionDSLTest {
     @Test
 	public final void testSize() {
 	Assert.assertEquals(ComputerBuilder.size(2),2);
-    
+    }
+    @Test
+	public final void testDiskSize150() {
+	Assert.assertEquals(ComputerBuilder.scriptDiskSize150().getSize(), 150);
+	    
     }
 }

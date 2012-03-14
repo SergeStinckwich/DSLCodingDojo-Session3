@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="delirium-tremens.local" name="NestedFunctionDSLTest" tests="5" time="0.061" timestamp="2012-03-14T03:59:44">
+<testsuite errors="0" failures="0" hostname="delirium-tremens.local" name="NestedFunctionDSLTest" tests="6" time="0.05" timestamp="2012-03-14T04:21:35">
   <properties>
     <property name="java.vendor" value="Apple Inc." />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -49,7 +49,7 @@
     <property name="java.vm.vendor" value="Apple Inc." />
     <property name="gopherProxySet" value="false" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner NestedFunctionDSLTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/serge/git/NestedFunction/testreport/TEST-NestedFunctionDSLTest.xml crashfile=/Users/serge/git/NestedFunction/junitvmwatcher5318756911001267358.properties propsfile=/Users/serge/git/NestedFunction/junit7145924248221449033.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner NestedFunctionDSLTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/serge/git/NestedFunction/testreport/TEST-NestedFunctionDSLTest.xml crashfile=/Users/serge/git/NestedFunction/junitvmwatcher3235067414387243033.properties propsfile=/Users/serge/git/NestedFunction/junit7194450679166192958.properties" />
     <property name="java.class.path" value="/Users/serge/git/NestedFunction/lib/junit-4.10.jar:/Users/serge/git/NestedFunction/build:/usr/share/java/ant-1.8.2/lib/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on June 3 2011" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -80,6 +80,7 @@
   <testcase classname="NestedFunctionDSLTest" name="testCores" time="0.0" />
   <testcase classname="NestedFunctionDSLTest" name="testSpeed" time="0.0" />
   <testcase classname="NestedFunctionDSLTest" name="testSize" time="0.0" />
+  <testcase classname="NestedFunctionDSLTest" name="testDiskSize150" time="0.0020" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
