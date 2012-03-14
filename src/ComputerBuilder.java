@@ -15,4 +15,8 @@ public class ComputerBuilder
 	
     }
 
+    public static int cores(int nbr)
+    {
+	return nbr;
+    }
 }
